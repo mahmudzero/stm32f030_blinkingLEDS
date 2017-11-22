@@ -4112,13 +4112,13 @@ OUTPUT(testing.elf elf32-littlearm)
  .debug_macro   0x000000000000b9fa      0x189 src/main.o
  .debug_macro   0x000000000000bb83      0x189 src/system_stm32f0xx.o
 
-.debug_line     0x0000000000000000     0x2be7
+.debug_line     0x0000000000000000     0x2be9
  .debug_line    0x0000000000000000      0xed8 CPAL_Driver/src/stm32f0xx_i2c_cpal.o
  .debug_line    0x0000000000000ed8      0x854 CPAL_Driver/src/stm32f0xx_i2c_cpal_hal.o
  .debug_line    0x000000000000172c      0x703 CPAL_Driver/src/stm32f0xx_i2c_cpal_usercallback_template.o
- .debug_line    0x0000000000001e2f      0x680 src/main.o
- .debug_line    0x00000000000024af      0x6bf src/system_stm32f0xx.o
- .debug_line    0x0000000000002b6e       0x79 startup/startup_stm32.o
+ .debug_line    0x0000000000001e2f      0x682 src/main.o
+ .debug_line    0x00000000000024b1      0x6bf src/system_stm32f0xx.o
+ .debug_line    0x0000000000002b70       0x79 startup/startup_stm32.o
 
 .debug_str      0x0000000000000000    0x4ee8b
  .debug_str     0x0000000000000000    0x4e7d7 CPAL_Driver/src/stm32f0xx_i2c_cpal.o
